@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="module_scope">
+        <item>com.android.systemui</item>
+        <item>com.meizu.suggestion</item>
+        <item>com.android.packageinstaller</item>
+        <item>com.android.settings</item>
+    </string-array>
+</resources>

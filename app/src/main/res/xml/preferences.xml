@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="@string/pref_category_lockscreen">
+
+        <SwitchPreferenceCompat
+            android:key="pref_hide_keyguard_icons"
+            android:title="@string/pref_hide_keyguard_icons_title"
+            android:summary="@string/pref_hide_keyguard_icons_summary"
+            android:defaultValue="false" />
+
+        <SwitchPreferenceCompat
+            android:key="pref_hide_lockscreen_carrier"
+            android:title="@string/pref_hide_lockscreen_carrier_title"
+            android:summary="@string/pref_hide_lockscreen_carrier_summary"
+            android:defaultValue="false" />
+
+        <SwitchPreferenceCompat
+            android:key="pref_hide_lockscreen_statusbar"
+            android:title="@string/pref_hide_lockscreen_statusbar_title"
+            android:summary="@string/pref_hide_lockscreen_statusbar_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

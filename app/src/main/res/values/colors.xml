@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Legacy colors referenced by default themes.xml template -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- MD3 theme colors -->
+    <color name="md_theme_primary">#6750A4</color>
+    <color name="md_theme_on_primary">#FFFFFF</color>
+    <color name="md_theme_primary_container">#EADDFF</color>
+    <color name="md_theme_on_primary_container">#21005D</color>
+    <color name="md_theme_secondary">#625B71</color>
+    <color name="md_theme_on_secondary">#FFFFFF</color>
+    <color name="md_theme_surface">#FFFBFE</color>
+    <color name="md_theme_on_surface">#1C1B1F</color>
+    <color name="md_theme_surface_variant">#E7E0EC</color>
+    <color name="md_theme_on_surface_variant">#49454F</color>
+
+    <!-- Category icon background colors -->
+    <color name="main_preference_color_1">#EADDFF</color>
+    <color name="main_preference_color_2">#D3E4FF</color>
+    <color name="main_preference_color_3">#D8F5E1</color>
+
+    <!-- Category icon tint colors -->
+    <color name="main_preference_on_color_1">#21005D</color>
+    <color name="main_preference_on_color_2">#001944</color>
+    <color name="main_preference_on_color_3">#002111</color>
+
+</resources>

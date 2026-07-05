@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/pref_category_system_settings">
+
+        <Preference
+            android:key="pref_settings_upgrade_background"
+            android:title="@string/pref_settings_upgrade_background_title"
+            android:summary="@string/pref_settings_upgrade_background_summary"
+            android:layout="@layout/preference_switch_material3" />
+
+        <Preference
+            android:key="pref_clear_settings_upgrade_background"
+            android:title="@string/pref_clear_settings_upgrade_background_title"
+            android:summary="@string/pref_clear_settings_upgrade_background_summary"
+            android:layout="@layout/preference_switch_material3" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

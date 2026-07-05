@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/pref_category_statusbar">
+
+        <SwitchPreferenceCompat
+            android:key="pref_hide_vpn_icon"
+            android:title="@string/pref_hide_vpn_icon_title"
+            android:summary="@string/pref_hide_vpn_icon_summary"
+            android:defaultValue="false" />
+
+        <SwitchPreferenceCompat
+            android:key="pref_hide_battery_critical_color"
+            android:title="@string/pref_hide_battery_critical_color_title"
+            android:summary="@string/pref_hide_battery_critical_color_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

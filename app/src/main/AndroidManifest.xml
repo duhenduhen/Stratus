@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name="org.duhen.stratus.StratusApp"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Stratus">
+
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="@string/xposed_description" />
+        <meta-data
+            android:name="xposedminversion"
+            android:value="93" />
+        <meta-data
+            android:name="xposedscope"
+            android:resource="@array/module_scope" />
+
+        <activity
+            android:name="org.duhen.stratus.MainActivity"
+            android:exported="true"
+            android:configChanges="locale|layoutDirection">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="org.duhen.stratus.SettingsActivity"
+            android:exported="false"
+            android:label="@string/pref_category_lockscreen"
+            android:configChanges="locale|layoutDirection" />
+
+        <activity
+            android:name="org.duhen.stratus.WidgetsSettingsActivity"
+            android:exported="false"
+            android:label="@string/pref_category_widgets"
+            android:configChanges="locale|layoutDirection" />
+
+        <activity
+            android:name="org.duhen.stratus.PackageInstallerSettingsActivity"
+            android:exported="false"
+            android:label="@string/pref_category_package_installer"
+            android:configChanges="locale|layoutDirection" />
+
+        <activity
+            android:name="org.duhen.stratus.AboutActivity"
+            android:exported="false"
+            android:label="@string/about_title"
+            android:configChanges="locale|layoutDirection" />
+
+        <activity
+            android:name="org.duhen.stratus.SystemSettingsActivity"
+            android:exported="false"
+            android:label="@string/pref_category_system_settings"
+            android:configChanges="locale|layoutDirection" />
+
+        <activity
+            android:name="org.duhen.stratus.StatusBarSettingsActivity"
+            android:exported="false"
+            android:label="@string/pref_category_statusbar"
+            android:configChanges="locale|layoutDirection" />
+
+        <provider
+            android:name="org.duhen.stratus.RemotePrefProvider"
+            android:authorities="org.duhen.stratus"
+            android:exported="true" />
+
+    </application>
+</manifest>

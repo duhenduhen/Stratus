@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Stratus</string>
+    <string name="xposed_description">Customizations for FlymeAIOS devices</string>
+
+    <!-- Categories -->
+    <string name="pref_category_lockscreen">Lock Screen</string>
+    <string name="pref_category_widgets">Widgets</string>
+    <string name="pref_category_package_installer">Package Installer</string>
+    <string name="pref_category_system_settings">Settings</string>
+    <string name="pref_category_statusbar">Status Bar</string>
+
+    <!-- Lockscreen prefs -->
+    <string name="pref_hide_keyguard_icons_title">Hide keyguard icons</string>
+    <string name="pref_hide_keyguard_icons_summary">Hide the left and right affordance icons on the lock screen</string>
+    <string name="pref_hide_lockscreen_carrier_title">Hide lock screen carrier</string>
+    <string name="pref_hide_lockscreen_carrier_summary">Hide the carrier label on the lock screen and bouncer</string>
+    <string name="pref_hide_lockscreen_statusbar_title">Hide lock screen status bar</string>
+    <string name="pref_hide_lockscreen_statusbar_summary">Hide the entire status bar on the lock screen and bouncer</string>
+
+    <!-- Widget prefs -->
+    <string name="pref_fix_suggestion_widget_title">Fix suggestion widget</string>
+    <string name="pref_fix_suggestion_widget_summary">Force the suggestion widget to show content</string>
+
+    <!-- Package installer prefs -->
+    <string name="pref_skip_installer_checks_title">Skip installer checks</string>
+    <string name="pref_skip_installer_checks_summary">Bypass virus scan when installing APKs</string>
+
+    <!-- System settings prefs -->
+    <string name="pref_settings_upgrade_background_title">System upgrade background</string>
+    <string name="pref_settings_upgrade_background_summary">Choose an image to replace bg_system_upgrade in Settings</string>
+    <string name="pref_settings_upgrade_background_summary_set">Custom image selected. Restart Settings to apply it.</string>
+    <string name="pref_clear_settings_upgrade_background_title">Clear system upgrade background</string>
+    <string name="pref_clear_settings_upgrade_background_summary">Restore the original Settings background</string>
+
+    <!-- Status bar prefs -->
+    <string name="pref_hide_vpn_icon_title">Hide VPN icon</string>
+    <string name="pref_hide_vpn_icon_summary">Hide VPN icon from status bar</string>
+    <string name="pref_hide_battery_critical_color_title">Hide battery critical color</string>
+    <string name="pref_hide_battery_critical_color_summary">Disables the red color of battery icon when battery is low</string>
+
+    <!-- Menu -->
+    <string name="action_restart_systemui">Restart SystemUI</string>
+    <string name="action_about">About</string>
+
+    <!-- About -->
+    <string name="about_title">About</string>
+    <string name="about_version">Version %1$s</string>
+    <string name="about_description">Stratus is an Xposed module for FlymeAIOS that unlocks customizations never intended by the original design.</string>
+    <string name="about_github_title">GitHub repository</string>
+    <string name="about_github_url">https://github.com/duhenduhen/Stratus</string>
+
+    <!-- Toasts -->
+    <string name="toast_systemui_restarting">Restarting SystemUI…</string>
+    <string name="toast_systemui_restart_failed">Failed to restart SystemUI: %s</string>
+    <string name="toast_settings_bg_saved">Settings background saved</string>
+    <string name="toast_settings_bg_cleared">Settings background cleared</string>
+    <string name="toast_settings_bg_save_failed">Failed to save image: %s</string>
+</resources>
